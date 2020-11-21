@@ -1,0 +1,28 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "first lesson",
+  "main": "index.html",
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "jquery": "^3.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/szymanskidotDEV/Szymon_Szyma-ski_PR_01.git"
+  },
+  "keywords": [
+    "cool",
+    "lesson"
+  ],
+  "author": "Szymon Szymański",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/szymanskidotDEV/Szymon_Szyma-ski_PR_01/issues"
+  },
+  "homepage": "https://github.com/szymanskidotDEV/Szymon_Szyma-ski_PR_01#readme"
+}
