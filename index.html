@@ -11,31 +11,73 @@
     />
     <link rel="stylesheet" href="style.css" />
 
-    <title>Document</title>
+    <title>Frontend Lab1</title>
   </head>
-  <body onload="alert(typeof jQuery)">
-    <div class="alert alert-primary" role="alert">This is body</div>
-    <div class="container">
-      <h1>Przykład 1</h1>
-      <p>Zapoznanie się z siatką i komponentami Bootstrap:</p>
-      <form>
-        <div class="row">
-          <div class="col bg-success p-4 m-1">
-            A:
-            <input class="A" type="number" />
-          </div>
-          <div class="col bg-warning p-4 m-1">
-            B:
-            <input class="B" type="number" />
-          </div>
-          <div class="col bg-primary p-4 m-1">
-            C:
-            <input class="C" type="number" />
-          </div>
-          <button type="button" class="calc col btn btn-primary m-1">
-            A + B
-          </button>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Frontend LAB1</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="add nav-item nav-link active" href="#">Dodawanie</a>
+          <a class="subtract nav-item nav-link" href="#">Odejmowanie</a>
+          <a class="multiply nav-item nav-link" href="#">Mnożenie</a>
+          <a class="divide nav-item nav-link" href="#">Dzielenie</a>
+          <a class="power nav-item nav-link" href="#">Potęgowanie</a>
         </div>
+      </div>
+    </nav>
+    <div class="container">
+      <h1>Podstawowe działania matematyczne</h1>
+      <form class="form-inline row">
+        <div class="input-group col bg-light p-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="basic-addon1">A</span>
+          </div>
+          <input
+            type="number"
+            class="a form-control"
+            placeholder="Set a number"
+            aria-label="Set a number"
+            aria-describedby="basic-addon1"
+          />
+        </div>
+        <div class="input-group col bg-light p-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="basic-addon1">B</span>
+          </div>
+          <input
+            type="number"
+            class="b form-control"
+            placeholder="Set a number"
+            aria-label="Set a number"
+            aria-describedby="basic-addon1"
+          />
+        </div>
+        <div class="input-group col bg-light p-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="basic-addon1">C</span>
+          </div>
+          <input
+            type="number"
+            class="c form-control"
+            placeholder="Your result"
+            aria-label="Your result"
+            aria-describedby="basic-addon1"
+          />
+        </div>
+
+        <button type="button" class="calc btn btn-secondary m-1">Oblicz</button>
       </form>
     </div>
     <script src="script.js"></script>
