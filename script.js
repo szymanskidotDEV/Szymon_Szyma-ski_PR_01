@@ -54,7 +54,7 @@ $('.c').on('change', function () {
     alert('You made great math operation, your answer is correct!');
   } else {
     alert(
-      `Unfortunately your answer is not correct, try again or press 'Result' to check correct answer`
+      `Unfortunately your answer is not correct, try again or press 'Oblicz' to check correct answer`
     );
   }
 });
